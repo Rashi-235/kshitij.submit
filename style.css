@@ -1,0 +1,243 @@
+body{
+    background-color: wheat;
+}
+#home{
+    height: 100vh;
+}
+.navbar {
+    position: fixed;
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar ul {
+    display: flex;
+}
+
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+
+}
+
+.navbar li a {
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 3px 3px;
+    margin: 13px 20px;
+    font-size: larger;
+}
+
+.navbar ul li a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+.navbar li image {
+    position: fixed;
+    right: 30px;
+    top: 10px;
+}
+
+
+.intropg {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(247, 228, 193);
+}
+
+
+#title {
+    display: block;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 50px;
+    
+}
+#title h1{
+    font-size: 90px;
+}
+#bestsellers{
+    background-color: dimgray;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+#bestsellers a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#bestsellers:hover{
+    background-color: rgb(166, 209, 246);
+    cursor: pointer;
+}
+#bestsellers a:hover{
+    color: black;
+}
+#top{
+    position: fixed;
+    float: right;
+    margin-left: 1400px;
+    border-radius: 5px;
+}
+#top a{
+    text-decoration: none;
+    color: black;
+}
+#top:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#top a:hover{
+    color: black;
+}
+#bestsells {
+    background-image: url(bs3.webp);
+    display: block;
+    margin: 34px;
+    height: 100vh;
+}
+
+#bestsells .box {
+    margin-top: 10px;
+    
+    float: left;
+    width: 24%;
+}
+
+#bestsells .box img {
+    height: 300px;
+    margin: auto;
+    display: flex;
+    width: 70%;
+}
+#bestsells .discount{
+    float: right;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-right: 35px;
+    background-color: red;
+}
+#bestsells .add{
+    float: left;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+#bestsells .add:active{
+    background-color: green;
+    
+}
+.search input {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 3px 17px;
+    align-items: right;
+
+}
+
+#recommendations {
+    background-color: rgb(233, 223, 203);
+    display: block;
+    margin: 34px;
+    height: 100vh;
+}
+
+#recommendations .box {
+    
+    float: left;
+    width: 33%;
+    height: 300px;
+}
+
+#recommendations .box img {
+    height: 200px;
+    margin: auto;
+    display: flex;
+    width: 50%;
+}
+#recommendations #box1{
+    background-image: url(imageedit_4_7694083452.png);
+    background-size: cover;
+}
+#recommendations #box2{
+    background-image: url(imageedit_5_8457301806.png);
+    background-size: cover;
+}
+#recommendations #box3{
+    background-image: url(imageedit_6_5454023240.png);
+    background-size: cover;
+}
+#recommendations #box4{
+    background-image: url(imageedit_8_4150093230.png);
+    background-size: cover;
+}
+#recommendations #box5{
+    background-image: url(imageedit_14_7764160766.png);
+    background-size: cover;
+}
+#recommendations #box6{
+    background-image: url(imageedit_13_9502251394.png);
+    background-size: cover;
+}
+#reviews{
+    margin-top: ;
+    background-image: url(imageedit_2_2586125760.png);
+    height: 100vh;
+}
+#reviews .rv{
+    display: flex;
+}
+#reviews .cards3{
+    margin-top: 50px;
+}
+#reviews .box{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    float: left;
+    height: 150px;
+    border: 2px solid black;
+    width: 80%;
+    margin-top: 10px;
+    justify-content: center;
+}
+#reviews .box img{
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+#reviews .form{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+footer .follow{
+    margin-left: 550px;
+}
+footer .copyright{
+    justify-content: center;
+    margin-left: 570px;
+}
+#links img{
+    display: flex;
+    float: left;
+    padding: 30px;
+}
